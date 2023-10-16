@@ -1,0 +1,35 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+.bg-animation {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    background: linear-gradient(330deg, #292D3E 0%, #536976 100%),
+    radial-gradient(circle, #536976 10%, transparent 85%),
+    radial-gradient(circle, #2b363b 10%, transparent 85%);
+    background-blend-mode: screen;
+    animation: gradient 10s ease infinite;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0 50%, 100% 100%, 0 0;
+    }
+    25% {
+        background-position: 50% 25%, 0 100%, 100% 0;
+    }
+    50% {
+        background-position: 100% 50%, 0 0, 100% 100%;
+    }
+    75% {
+        background-position: 50% 75%, 100% 0, 0 100%;
+    }
+    100% {
+        background-position: 0 50%, 100% 100%, 0 0;
+    }
+}
