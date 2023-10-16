@@ -1,7 +1,15 @@
-# Vue 3 + Vite
+# bebars-promo
+![Preview Screenshot](screenshot.png)
+This is a simple website written in VUE.js to promote Bebras Challenge in Korea International School Jeju.
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+# Development
+### Prerequisites
+- Node.js
+- Yarn
+- Vue CLI
 
-## Recommended IDE Setup
-
-- [VS Code](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+### Setup
+1. Clone this repository
+2. Run `npm install` to install dependencies
+3. Run `npm run dev` to start development server
+4. When you are done, run `npm run build` to build the website
