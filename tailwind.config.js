@@ -13,7 +13,7 @@ export default {
       xl: '1440px',
     },
     fontFamily: {
-      sans: ['Mona Sans', 'Graphik', 'sans-serif'],
+      sans: ['IBM Plex Sans', 'Graphik', 'sans-serif'],
       serif: ['Merriweather', 'serif'],
     },
     extend: {
