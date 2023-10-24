@@ -1,7 +1,7 @@
 <script setup>
 import { ref, onMounted, onBeforeUnmount, nextTick } from 'vue';
 
-const eventDate = new Date("2023-12-14T15:45:00+09:00");
+const eventDate = new Date("2023-11-14T15:45:00+09:00");
 const day = ref(0);
 const hour = ref(0);
 const minute = ref(0);
