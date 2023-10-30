@@ -8,7 +8,7 @@
         </a>
       </div>
       <!-- Sign Up Button -->
-      <a href="https://forms.gle/goGUNwQtzcwq4RpUA" target="_blank" rel="noopener noreferrer"
+      <a href="https://docs.google.com/forms/d/e/1FAIpQLSfD3nLHw0Guxxu7Dkox7d5x2BaKVUmOsv4fhdHhu5t6YUokFg/viewform" target="_blank" rel="noopener noreferrer"
          class="px-4 py-1 rounded-md transition duration-200 mr-4 border-slate-100 border hover:border-slate-300 hover:text-slate-300 font-light">
         Sign Up
       </a>
